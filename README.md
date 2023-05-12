@@ -11,7 +11,7 @@ peomConfig/Config.json 内的内容是json 文本
 
 以下对应一下关键词作用：
 
-PeomUrl: 诗词来源哪 默认一言
+PeomUrl: 诗词来源地址 默认一言(https://v1.hitokoto.cn/?c=i)
 
 PeomKey: 诗词从Url获取后 提取诗词json 中的关键词
 
