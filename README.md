@@ -30,3 +30,4 @@ WindowHeight: 诗词窗体高度 会影响最后一行文字是否完整 默认6
 
 Time: 诗词刷新间隔时间 默认10mins
 ### 项目好乱 😂
+[感谢一言](https://hitokoto.cn/)
