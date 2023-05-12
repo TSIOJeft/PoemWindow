@@ -1,5 +1,6 @@
-# PemoWindow
- 显示诗词在桌面右上角
+# PoemWindow
+ 显示诗词在桌面右上角 
+ 为什么是poem🤣
  
  ![示例](https://github.com/TSIOJeft/PeomWindow/blob/main/screen_shot.png)
  
