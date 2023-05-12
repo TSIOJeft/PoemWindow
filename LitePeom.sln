@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LitePeom", "LitePeom.csproj", "{93C6FB00-18F3-4350-8C4C-F5742061C15E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93C6FB00-18F3-4350-8C4C-F5742061C15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C6FB00-18F3-4350-8C4C-F5742061C15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C6FB00-18F3-4350-8C4C-F5742061C15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C6FB00-18F3-4350-8C4C-F5742061C15E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

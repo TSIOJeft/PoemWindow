@@ -1,0 +1,16 @@
+﻿<Window x:Class="LitePeom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LitePeom"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        ShowInTaskbar="False"
+        Title="诗词窗口" Height="60" Width="200"
+        x:Name="peomWindow"
+        AllowsTransparency="True">
+    <TextBlock  Text="吾将上下而求索" FontSize="20" Foreground="White" x:Name="peomText" TextWrapping="Wrap" />
+</Window>
