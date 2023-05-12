@@ -1,5 +1,6 @@
 # LitePeom
  显示诗词在桌面右上角
+ [示例](screen_shot.png)
  ## 使用方法
  [下载链接](https://github.com/TSIOJeft/PeomWindow/releases)
  下载LitePeom.exe 后直接打开就行
