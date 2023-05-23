@@ -31,7 +31,7 @@ namespace LitePeom
         public string PeomKey = "hitokoto";
         public int FontSize = 20;
         public int WindowWidth = 220;
-        public int WindowHeight = 60;
+        public int WindowHeight = 100;
         public string Font = "楷体";
         public int Time = 30 * 60 * 1000;
     }

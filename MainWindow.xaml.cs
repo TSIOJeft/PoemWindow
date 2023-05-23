@@ -16,7 +16,7 @@ namespace LitePeom
     public partial class MainWindow
     {
         private ConfigArray config;
-        private int refersh = 30 * 60 * 1000;
+        private int refersh;
 
         public MainWindow()
         {
