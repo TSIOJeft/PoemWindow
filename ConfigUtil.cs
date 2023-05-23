@@ -33,5 +33,6 @@ namespace LitePeom
         public int WindowWidth = 220;
         public int WindowHeight = 60;
         public string Font = "";
+        public int Time = 30 * 60 * 1000;
     }
 }

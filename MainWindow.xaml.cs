@@ -16,6 +16,7 @@ namespace LitePeom
     public partial class MainWindow
     {
         private ConfigArray config;
+        private int refersh = 30 * 60 * 1000;
 
         public MainWindow()
         {
@@ -40,11 +41,13 @@ namespace LitePeom
             this.config = new ConfigUtil().loadConfig();
             this.Width = config.WindowWidth;
             this.Height = config.WindowHeight;
+            this.refersh = config.Time;
             peomText.FontSize = config.FontSize;
             if (config.Font != null && config.Font.Length > 0)
             {
                 peomText.FontFamily = new FontFamily(config.Font);
             }
+            
             // new ConfigUtil().saveConfig(config);
         }
 
@@ -59,7 +62,7 @@ namespace LitePeom
         private void time()
         {
             Timer timer = new Timer();
-            timer.Interval = 10 * 60 * 1000;
+            timer.Interval = refersh;
             timer.Tick += updatePeom;
             timer.Start();
         }
